@@ -94,8 +94,10 @@ public class Algorithm {
         }
         if (!found) {
             result.append("Không tìm thấy");
+            System.out.println(result.toString().trim());
+        } else {
+            System.out.println("Các vị trí có giá trị lớn hơn " + value + ": " + result.toString().trim());
         }
-        System.out.println("Các vị trí có giá trị lớn hơn " + value + ": " + result.toString().trim());
         return arr;
     }
 
@@ -124,8 +126,5 @@ public class Algorithm {
         }
     }
 
-    public void calculateRunTimes() {
-        System.out.println("Runtime calculation is not implemented.");
-    }
 }
 

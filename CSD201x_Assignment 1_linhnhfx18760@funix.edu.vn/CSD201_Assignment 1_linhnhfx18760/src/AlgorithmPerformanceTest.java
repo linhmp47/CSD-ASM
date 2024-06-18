@@ -44,7 +44,7 @@ public class AlgorithmPerformanceTest {
                 "Dữ liệu ngẫu nhiên:\n" +
                 "Thời gian chạy khá chậm so với Selection Sort và Insertion Sort.\n" +
                 "Dữ liệu đã sắp xếp:\n" +
-                "Thời gian chạy nhanh nhất trong ba trường hợp do Bubble Sort có thể dừng sớm khi không cần hoán đổi.\n" +
+                "Thời gian chạy chậm nhất trong ba trường hợp do cần hoán đổi.\n" +
                 "Dữ liệu ngược lại:\n" +
                 "Thời gian chạy chậm nhất vì phải thực hiện tất cả các phép hoán đổi.\n" +
                 "\n" +
